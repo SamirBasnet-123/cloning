@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Responsive Navbar</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Interior Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
@@ -13,39 +17,100 @@
 
 <body>
 
-<nav class="header">
-  <header >
-
-  <a href="#" class="logo">
-    Atelier<span>STUDIO</span>
-  </a>
 
 
+  <nav class="header">
 
-  <label for="menu-toggle" class="menu-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
+    <header>
+
+      <a href="#" class="logo">
+        Atelier<span>STUDIO</span>
+      </a>
 
 
 
-  <ul class="nav-links">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Pricing</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
+      <input type="checkbox" id="menu-toggle">
+
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
 
-  <a href="#" class="btn-header-cta">
-    Book Consultation
-  </a>
+      <ul class="nav-links">
 
-</header>
-</nav>
+        <li><a href="#">About</a></li>
+
+        <li><a href="#">Portfolio</a></li>
+
+        <li><a href="#">Services</a></li>
+
+        <li><a href="#">Pricing</a></li>
+
+        <li><a href="#">Blog</a></li>
+
+        <li><a href="#">Contact</a></li>
+
+      </ul>
+
+      <a href="#" class="btn-header-cta">
+        Book Consultation
+      </a>
+
+    </header>
+
+  </nav>
+
+
+  <section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+      <div class="badge">
+        <span>✦</span> 47 Projects Completed
+      </div>
+
+      <h1>
+        Transforming Spaces Into Extraordinary Experiences
+      </h1>
+
+      <p>
+        Award-winning interior design studio crafting timeless,
+        sophisticated environments for discerning clients across
+        residential, commercial, and hospitality sectors.
+      </p>
+
+      <div class="filter-pills">
+
+        <span class="pill">Residential ✕</span>
+
+        <span class="pill">Commercial ✕</span>
+
+        <span class="pill">Hospitality ✕</span>
+
+        <span class="pill">Retail ✕</span>
+
+      </div>
+
+      <div class="hero-actions">
+
+        <a href="#" class="btn-primary">
+          View Portfolio →
+        </a>
+
+        <a href="#" class="btn-secondary">
+          Book Consultation
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
 
 </body>
+
 </html>
